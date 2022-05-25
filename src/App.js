@@ -22,6 +22,7 @@ export default function App() {
   };
 
   return (
+    console.log('render'),
     <div onClick={handleClick}>
       <h1>Hello StackBlitz!</h1>
       <p>Start editing to see some magic happen :)</p>
